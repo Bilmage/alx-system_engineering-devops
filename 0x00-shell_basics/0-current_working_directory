@@ -1,0 +1,10 @@
+#!/bin/bash
+
+cwd=$(dirname "$(readlink -f "$0")")
+
+echo "Current working directory:"
+echo "$cwd"
+
+chmod +x cwd_script.sh
+
+./cwd_script.sh
